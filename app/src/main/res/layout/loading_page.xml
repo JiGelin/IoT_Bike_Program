@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".Acitivity_Loading">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:alpha="0.65"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.65"
+        android:text="单车云管家"
+        android:id="@+id/loading_title"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贴心呵护您的爱车"
+        android:id="@+id/loading_text"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:alpha="0.75"
+        android:layout_marginTop="30dp" />
+
+
+
+</LinearLayout>
